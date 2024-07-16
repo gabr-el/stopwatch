@@ -42,10 +42,6 @@ function watch() {
         hours++;
     }
 
-    if (hours === 24) {
-        hours = 0;
-    }
-
     watchDocument.innerHTML = digitZero(hours) + ":" + digitZero(minutes) + ":" + digitZero(seconds);
 
 }
